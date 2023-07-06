@@ -5,85 +5,83 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
+    title: "Tienda 1",
     icon: "frameworks/react",
-    url: "https://reactjs.org/",
+    url: "#",
   },
   {
-    title: "Preact",
+    title: "Tienda 2",
     icon: "frameworks/preact",
-    url: "https://preactjs.com/",
+    url: "#",
   },
   {
-    title: "Svelte",
+    title: "Tienda 3",
     icon: "frameworks/svelte",
-    url: "https://svelte.dev/",
+    url: "#",
   },
   {
-    title: "Vue",
+    title: "Tienda 4",
     icon: "frameworks/vue",
-    url: "https://vuejs.org/",
+    url: "#",
   },
   {
-    title: "Solid",
+    title: "Tienda 5",
     icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
+    url: "#",
   },
   {
-    title: "Lit",
+    title: "Tienda 6",
     icon: "frameworks/lit",
-    url: "https://lit.dev/",
+    url: "#",
   },
 ];
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Netlify",
+    title: "Plataforma 1",
     icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
+    url: "#",
   },
   {
-    title: "Vercel",
+    title: "Plataforma 2",
     icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    url: "#",
   },
   {
-    title: "Cloudflare",
+    title: "Plataforma 3",
     icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
+    url: "#",
   },
   {
-    title: "Render",
+    title: "Plataforma 4",
     icon: "platforms/render",
-    url: "https://render.com/",
+    url: "#",
   },
   {
-    title: "GitHub",
+    title: "Plataforma 5",
     icon: "fa-brands:github",
-    url: "https://pages.github.com/",
+    url: "#",
   },
   {
-    title: "GitLab",
+    title: "Plataforma 6",
     icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
+    url: "#",
   },
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Tiendas" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Nos puedes encontrar en diversas tiendas en todo <span class="text-primary">México</span>.
   </Fragment>
   <CompatibilityList
     items={frameworks}
-    title="Frameworks"
-    url="https://docs.astro.build/core-concepts/framework-components/"
+    title="Tiendas"
+    url="#"
   />
   <CompatibilityList
     items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
+    title="Plataformas"
+    url="#"
   />
 </ContentSection>
